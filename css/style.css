@@ -4,6 +4,12 @@ body {
   font-family: "Titillium Web", sans-serif;
   margin: 0;
 }
+.flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 header {
   background-image: linear-gradient(
       to bottom,
@@ -14,23 +20,19 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #banner {
   text-align: center;
   overflow: hidden;
-  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(7, 7, 7)); */
   color: #fff;
 }
 #banner .banner-title {
   font-size: 4em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   margin-bottom: 0;
 }
 #banner p {
-  color: #f1f1f1;
+  color: #dbdada;
 }
 .btn {
   text-decoration: none;
@@ -65,9 +67,6 @@ header {
   margin-bottom: 4rem;
 }
 #money-donating-category {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
   margin-bottom: 3rem;
 }
 .category .money {
@@ -107,13 +106,12 @@ header {
   color: #888;
 }
 
+#donate-plan {
+  padding-bottom: 4rem;
+}
 #plans {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
   text-align: left;
   margin-top: 2rem;
-  padding: 2rem 0 4rem 0;
 }
 .plan {
   padding: 30px 20px;
@@ -140,6 +138,18 @@ header {
 }
 #plans #bg-color-3 {
   background-color: #526bc733;
+}
+#need-volunteers {
+  padding: 2rem 0 4rem 0;
+}
+#volunteers #volunteers-info {
+  text-align: left;
+}
+#volunteers #volunteers-img img {
+  width: 90%;
+}
+.volunteer {
+  width: 50%;
 }
 #get-update {
   text-align: center;
