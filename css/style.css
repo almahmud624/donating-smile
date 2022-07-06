@@ -76,6 +76,8 @@ header {
   background: #ca401e0a;
   padding: 22px 15px;
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 .category #current {
   color: #ee3b0e;
