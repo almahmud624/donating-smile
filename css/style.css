@@ -48,7 +48,7 @@ header {
 #donate-today {
   padding: 3rem 0;
 }
-#donate-today .container {
+.container {
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -103,4 +103,39 @@ header {
 
 #other-amount input::-ms-input-placeholder {
   color: #888;
+}
+
+#plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  margin-top: 4rem;
+  padding: 2rem 0 4rem 0;
+}
+.plan {
+  padding: 30px 20px;
+  background: red;
+  border-radius: 4px;
+}
+.plan img {
+  width: 20%;
+}
+.plan .plan-title {
+  font-size: 1.4em;
+  margin-bottom: 0;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.plan .plan-info {
+  color: #666;
+}
+#plans #bg-color-1 {
+  background-color: #738c5b36;
+}
+#plans #bg-color-2 {
+  background-color: #ca401e44;
+}
+#plans #bg-color-3 {
+  background-color: #526bc733;
 }
